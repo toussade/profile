@@ -1,0 +1,90 @@
+body{
+    font-family:"caveat","cursive";
+  }
+  
+  
+  .hero-section{
+    height:200px;
+    overflow: hidden;
+  }
+  
+  .hero-image{
+    width:100%;
+  }
+  #profile-photo{
+    border-radius: 85px;
+    height:150px;
+    margin-left: 50px;
+    margin-top:-75px; 
+    border: 2px solid green;
+    
+  }
+  .photo-profile-details{
+    display: flex;
+    gap: 25px;
+  }
+  .name-section .name{
+  font-size:35px;  
+  }
+  .name-section.about-title{
+    font-size:16px;
+  }
+  .mid-section{
+    display:flex;
+    justify-content:center;
+    gap: 20px;
+  }
+  
+  .tab-link-list{
+     list-style-type:none;
+    padding:0;
+  }
+  .tab-link-list a{
+    text-decoration: none;
+    color: darkgreen;
+  }
+  .tab-link-list  li.selected{
+    background-color:#a7c950;
+  }
+  .tab-link-list li.selected a{
+    color:#bc4749;
+  }
+  .tab-link-list{
+    border: 1px solid green;
+    padding:10px;
+  }
+  .main-section{
+    width: 600px;
+  }
+  .main-section dt{
+    font-weight: bold;
+  }
+  .about-me-row{
+    display: flex;
+  }
+  .favorites ul {
+    border-top: 5px solid #94AE89;
+    display:flex;
+    
+
+}
+.favorites li {
+    display:inline-block;
+    margin: 15px;
+    list-style-type: none;
+}
+
+
+.favorites img {
+    height: 250px;
+   
+}
+
+h3 {
+    color: #A8BCA1;
+}
+
+.fav-titles {
+    text-align: center;
+    color: #C0DA74;
+}
